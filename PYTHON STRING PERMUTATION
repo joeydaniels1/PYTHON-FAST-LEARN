@@ -1,0 +1,4 @@
+from itertools import permutations
+perms =[''.join(k) for k in permutations('joeydaniel') ]
+print(perms)
+print(len(set(perms)))
